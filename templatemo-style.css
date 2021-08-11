@@ -1,1 +1,417 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000 ;
+  overflow-x: hidden;
+}
 
+
+
+a {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin-top : 10px;
+  font-weight: 400;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+
+a:hover {
+ color:#798777;text-decoration:none;}
+}
+
+p{
+	font-size : 8px;
+  text-align : justify;
+}
+
+/*Propriétés du MENU de navigation**/
+
+#menu{ 
+    position: relative; 
+    height: 50px; 
+	top: 10px;  
+	margin-bottom:10px;
+	right: 20px; 
+	left : 2px;
+    background : #EFAA92;
+    display: flex; 
+    justify-content: space-between;
+	align-items: center;
+}
+
+#menu h1 
+{
+   text-align:left; 
+   margin-left: 10px;
+   margin-top : 10px;   
+}
+
+#menu ul{ 
+	  display: flex;
+	}  
+	
+#menu ul li{  
+	list-style: none; 
+	margin-left:2px; 
+	} 
+
+#menu ul li a{	  
+    text-decoration: none; 
+    margin-right: 10px; 
+    padding:8px;
+    color: #252a34;
+}
+
+#menu img{	  
+    height : 30px; 
+	margin-left: 10px;
+   margin-top : 10px;  
+}
+
+#menu a:hover{color:#798777;text-decoration:none;} 
+
+#menu a:active{color:#f7f3e9;text-decoration:none;} 
+
+
+
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(239, 170, 146, 0.4);
+    
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.tm-bg-green {
+  background-color: #ABC8A8;
+}
+
+.tm-bg-orange {
+  background-color: #EBCE75;
+}
+
+.tm-bg-blue {
+  background-color: #F4DBED;
+}
+
+.tm-bg-dark-gray {
+  background-color: #A9D5EC;
+}
+
+
+
+
+/*
+ Section dédiée aux formations
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+  border-radius:24px;
+}
+
+.tm-brand-container {
+  padding: 75px 110px;
+  
+}
+
+.tm-brand-name {
+  font-size: 3.4rem;
+}
+
+.tm-brand-description {
+  font-size: 1.3rem;
+  color : #FFFFFF ;
+}
+
+.parallax-window {
+  min-height: 1050px;
+  background: transparent;
+}
+
+
+
+.img-rounded img { 
+	margin-top: 10px;
+	margin-left : 80px;
+	height : 200px;
+	border-radius:24px; 
+}
+
+.mb-0 { 
+  text-align : center;
+  color: #000000;
+  margin-top : 20px;
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: rgba(142, 184, 200, 0.4);
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+
+
+/*
+  Section du Portfolio
+*/
+
+#tmPortfolio {
+  padding-top: 80px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 24px;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px; 45px;
+}
+
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #ABC8A8;
+}
+
+.tm-text-orange {
+  color: #EBCE75 ;
+}
+
+.tm-text-blue {
+  color: #F4DBED;
+}
+
+.tm-text-dark-gray {
+  color: #000000;
+}
+
+.tm-title-small {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1;
+  font-size: 18px;
+  text-align : justify;
+}
+
+
+
+
+
+
+/*
+  Contact section
+*/
+
+#tmContact {
+  padding-top: 95px;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 200px;
+  height: auto;
+  min-height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+  padding: 54px 34px 44px;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
